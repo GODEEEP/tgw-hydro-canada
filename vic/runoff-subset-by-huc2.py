@@ -25,7 +25,7 @@ def process_year(y, output_dir):
   grid_ids = pd.read_csv(os.path.join('input', 'grid_ids_ca_check.csv'))
 
   # for i, cell in tqdm(grid_ids.iterrows(), total=grid_ids.shape[0]):
-  for n, cell in grid_ids.iterrows():
+  for _, cell in grid_ids.iterrows():
 
     i = int(cell.id)
     huc2_code = int(cell.huc2)
