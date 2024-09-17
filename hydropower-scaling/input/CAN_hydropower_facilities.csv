@@ -1,0 +1,147 @@
+﻿fid,Facility,X,Y,Province,Hydro_MW,NHN_Work_U,GRanD_ID,HydroLAKES_ID,GINDEX,GINDEX_CONUS,Basin_Note,WECC_ADS_2032,Intake_Flow_Rate,Type,Water_License
+1,Aberfeldie,-115.3624796,49.49349031,British Columbia,24,08NGB00,,973345,7253,91021,CRB,,38.5,run-of-river?,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=44980356
+2,Akolkolex,-118.0295293,50.8227167,British Columbia,10,08NE002,,,11104,96104,CRB,X,,,
+6,Arrow Lakes,-117.7688492,49.3430244,British Columbia,185,08NEA00,282,698,6529,90073,CRB,,1200.63232,impoundment,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=44984631
+7,Ash River,-125.1506288,49.373363,British Columbia,28,08HB001,31,101239,6822,,,,15.49988,reservoir,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=44981312
+8,Ashlu Creek,-123.3250321,49.9143383,British Columbia,49.9,08GABX1,,,8244,,,,28.99994,run-of-river,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=99052753
+9,Barr Creek,-126.760236,49.9278142,British Columbia,4.4,08HE0X1,,,8217,,,,3.65012,run-of-river,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=96784447
+10,Barrier,-115.0410425,51.03427356,Alberta,13,05BF000,258,96847,11127,,,,34,reservoir?,https://avw.alberta.ca/pdf/00080706-00-00.pdf
+13,Bearspaw,-114.2823152,51.1012345,Alberta,17,05BH000,,,11836,,,,164,run-of-river,https://avw.alberta.ca/pdf/00080707-00-00.pdf
+14,Belly River,-113.5743066,49.3150349,Alberta,3,05AD000,284,101569,6562,,,X,,,
+15,Big Silver Creek,-121.859203,49.693269,British Columbia,40.6,08MG0X2,,,7553,,,,44,run-of-river,https://j200.gov.bc.ca/pub/ams/Default.aspx?PosseMenuName=WS_Main
+16,Bighorn,-116.3244505,52.3081136,Alberta,120,05DC000,249,7243,14989,,,,155.8,impoundment,https://avw.alberta.ca/pdf/00080709-00-00.pdf
+19,Bone Creek,-119.1808297,52.2553296,British Columbia,19,08LB002,,,14967,,,,14.82101,run-of-river,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=44979843
+20,Bonnington Falls,-117.4854103,49.4582019,British Columbia,16.2,08NHA00,,974194,6884,90540,CRB,X,,,
+21,Boston Bar,-121.4584751,49.8113434,British Columbia,9,08MF001,,,7907,,,,4.16993,run-of-river,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=44989601
+23,Brandywine Creek,-123.1312021,50.0579468,British Columbia,8,08GABX1,,,8598,,,,4,run-of-river,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=44982007
+24,Brazeau,-115.3753924,52.910127,Alberta,355,05DD000,246,7035,16756,,,,340,reservoir,https://avw.alberta.ca/pdf/00080708-00-00.pdf
+25,Bridge River 1,-122.2400375,50.7298504,British Columbia,180,08MEAX0,20,7693,10717,,,,64.99696,reservoir,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=52372984
+26,Bridge River 2,-122.2434031,50.7231283,British Columbia,298,08MEAX0,20,7693,10717,,,,94.9504,reservoir,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=52729792
+27,Brilliant,-117.6206529,49.3248798,British Columbia,140,08NHA00,283,101571,6883,90539,CRB,,610.51021,reservoir,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=44984064
+28,Brilliant Expansion 1,-117.6197926,49.3231182,British Columbia,120,08NHA00,283,101571,6883,90539,CRB,,554.15978,reservoir,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=44984064
+29,Brown Lake,-129.8436439,54.02714488,British Columbia,7.2,08EGBX1,,85150,19808,,X,,,,
+34,Cascade,-115.502093,51.2001858,Alberta,36,05BD000,255,7547,12180,,,,,reservoir,X
+38,Cheakamus,-123.2911096,49.93362215,British Columbia,158,08GABX1,26,100033,8599,,,,65.58737,reservoir,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=44984485
+40,Chin Hydro Plant,-112.3445726,49.6755727,Alberta,11,05AG000,277,8032,7629,,,,,reservoir,X
+41,China Creek,-124.7394651,49.1856055,British Columbia,6.5,08HB001,,,6122,,,,5.19896,run-of-river,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=44981506
+43,Clowhom,-123.5321081,49.7109333,British Columbia,33,08GB0X1,29,100726,7892,,,,100.01494,reservoir,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=44981384
+44,Corra Linn,-117.46863,49.4688768,British Columbia,51,08NHA00,279,696,6884,90540,CRB,,356.79168,reservoir,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=71657860
+46,Cypress Creek,-126.1276611,49.8427485,British Columbia,2.8,08HE0X1,,,7870,,,,2.3,run-of-river,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=64910478
+47,Dickson Dam,-114.2229065,52.0527307,Alberta,15,05CB000,251,7304,14301,,,,84,reservoir,https://avw.alberta.ca/pdf/00028209-00-00.pdf
+50,Douglas Creek,-122.1509539,49.7675628,British Columbia,27,08MG0X2,,,7902,,,,11.10019,run-of-river,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=62472050
+51,East Toba,-123.9602757,50.6750808,British Columbia,123,08GC0X0,,,10001,,,,30.69541,run-of-river,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=61726681
+52,East Twin,-120.3833946,53.4581362,British Columbia,2,08KA0X1,,,18476,,,,3.79445,run-of-river,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=45000077
+53,Eldorado Reservoir,-119.3589375,50.0190151,British Columbia,1.1,08NM000,,,8629,92845,CRB,,0.77022,run-of-river,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=45048150
+54,Elko,-115.0999046,49.28070981,British Columbia,12,08NGB00,,,6551,90095,CRB,,25.48512,run-of-river,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=44982126
+55,Fire Creek,-122.2346636,49.7833633,British Columbia,23,08MG001,,,8253,,,,10.50553,run-of-river,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=44980777
+56,Fitzsimmons Creek,-122.9456811,50.10607097,British Columbia,7.5,08MG001,,,8601,,,,4.00003,run-of-river,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=62798434
+57,Forrest Kerr,-130.6874143,56.71722045,British Columbia,195,08CG002,,,27194,,X,,,,
+59,Furry Creek,-123.2019765,49.5792879,British Columbia,10,08GABX1,,,7190,,,,3.99623,run-of-river,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=44981436
+60,G.M. Shrum,-122.1957438,56.014797,British Columbia,2730,07FA000,6,40,25502,,X,,,,
+61,Ghost,-114.7078411,51.2187969,Alberta,51,05BE000,256,7558,11834,,,,217.3,impoundment,https://avw.alberta.ca/pdf/00080704-00-00.pdf
+69,Hluey Lake (SNP),-130.2562295,58.3547361,British Columbia,3,08CB002,,707415,31774,,X,X,,,
+70,Horseshoe,-115.0342818,51.118023,Alberta,14,05BE000,,,11479,,,,,run-of-river,X
+72,Hystad,-119.3523966,52.8412708,British Columbia,6,08KA002,,,16723,,,,2.01049,run-of-river,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=44983444
+74,Interlakes,-115.1392363,50.6334667,Alberta,5,05BF000,264,98207,10070,,,,18.4,reservoir,https://avw.alberta.ca/pdf/00044609-00-00.pdf
+75,John Hart,-125.3110158,50.04397155,British Columbia,126,08HD001,23,99873,8580,,,,124,reservoir,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=66829841
+76,Jordan River,-124.0522509,48.4296554,British Columbia,170,08HA0X2,46,991826,4368,,,,81.17294,reservoir,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=44982344
+77,Kananaskis,-115.0582473,51.0969111,Alberta,19,05BE000,,,11479,,,,,run-of-river,X
+78,Kemano,-127.9425558,53.5631714,British Columbia,896,08FE0X2,15,591,18440,,X,,,,
+81,Kokish River,-126.8755109,50.5198571,British Columbia,45,08HF0X4,,98726,9625,,,,25,run-of-river?,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=72746646
+82,Kootenay Canal,-117.5178965,49.4532579,British Columbia,570,08NHA00,279,696,6884,90540,CRB,,894.814,reservoir,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=52950570
+84,Kwoiek Creek,-121.5671347,50.1050634,British Columbia,49.9,08MF001,,,8962,,,,13.5,run-of-river,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=88032060
+85,Ladore Falls,-125.3930169,50.0173147,British Columbia,47,08HD001,24,7952,8579,,,,83.95,reservoir,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=143234482
+86,Lajoie,-122.8558899,50.8397204,British Columbia,25,08MEAX0,19,7676,10712,,,,50.63856,reservoir,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=52738871
+87,Lamont Creek,-122.3445983,49.5689623,British Columbia,27,08MHBX1,,,7549,,,,8.69326,run-of-river,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=65753069
+89,Long Lake,-130.0184949,56.0623137,British Columbia,31,08DBD00,,775026,25792,,X,,,,
+90,Lower Bear,-123.5159238,49.748008,British Columbia,10,08GB0X1,,,7891,,,,7.90039,run-of-river,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=44979535
+91,Lower Bonnington,-117.5004247,49.4617089,British Columbia,54,08NHA00,,974151,6884,90540,CRB,,294.49472,run-of-river?,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=71657016
+92,Lower Clowhom,-123.3973405,49.8176064,British Columbia,11,08GB0X1,,,7893,,,,14.838,run-of-river,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=64027466
+96,Mamquam,-123.0918942,49.7214433,British Columbia,58,08GABX1,,,7543,,,,29.9991,run-of-river,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=61645671
+98,McNair Creek,-123.5015484,49.5158173,British Columbia,10,08GB0X1,,,7187,,,,3.29891,run-of-river,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=44981382
+99,Mears Creek,-126.2135782,49.8720355,British Columbia,3.8,08HE0X1,,966287,8222,,,,1.39885,reservoir,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=44982566
+100,Mica,-118.5705149,52.075872,British Columbia,2746,08NB000,250,628,14268,100275,CRB,,1840.592,impoundment,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=71654530
+101,Miller Creek,-122.8713517,50.3498831,British Columbia,33,08MG001,,,9303,,,,5.49997,run-of-river,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=61661877
+102,Montrose,-124.1873317,50.6231362,British Columbia,73,08GC0X0,,,10351,,,X,,,
+103,Moresby Lake,-132.1282017,52.9344871,British Columbia,6,08OB000,,89869,16974,,X,X,,,
+105,Northwest Stave River,-122.4498412,49.62283127,British Columbia,17.5,08MHBX1,,,7548,,,,31.5,run-of-river,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=60315691
+107,Ocean Falls,-127.686153,52.3510827,British Columbia,15,08FD0X3,18,7231,14898,,,X,,,
+110,Oldman River,-113.8960384,49.5610077,Alberta,32,05AA000,278,8051,7264,,,,,reservoir?,X
+112,Outlet Works,-115.5891102,52.9626208,Alberta,20.5,05DD000,245,7012,16754,,,X,,reservoir,
+113,Peace Canyon,-121.9949698,55.9825712,British Columbia,694,07FA000,7,76153,25151,,X,,,,
+115,Pine Creek (Atlin),-133.6445721,59.58290327,British Columbia,2.1,09AAC00,,4868,35621,,X,X,,,
+116,Pingston Creek,-117.9484147,50.5500653,British Columbia,45,08NE002,,,10047,94711,CRB,,9.40118,run-of-river,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=44981916
+117,Pocaterra,-115.1193763,50.6993241,Alberta,15,05BF000,263,97979,10422,,,X,,,
+119,Ptarmigan Creek,-120.9111873,53.67890378,British Columbia,3.3,08KA0X1,,,18472,,,,4.53069,run-of-river,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=44983854
+120,Puntledge,-125.0347814,49.68837621,British Columbia,24,08HB0X3,30,8037,7174,,,,28.3168,run-of-river?,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=44981168
+122,Raging River 2,-127.233472,50.3884208,British Columbia,8,08HE003,,98949,9622,,,,15.82286,reservoir,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=44980430
+123,Raymond,-112.6924024,49.4070986,Alberta,18,05AF000,,,6922,,,,,run-of-river,X
+124,Revelstoke,-118.1939447,51.0485631,British Columbia,2480,08ND000,257,648,11454,96566,CRB,,2633.512,impoundment,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=71654752
+126,Rundle,-115.3735507,51.0886809,Alberta,50,05BE000,,937834,11476,,,,59.4,reservoir,https://avw.alberta.ca/pdf/00080715-00-00.pdf
+127,Ruskin,-122.4083408,49.1949732,British Columbia,105,08MHBX1,,101899,6493,,,,356.79168,reservoir,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=45039784
+128,Rutherford Creek,-122.8669537,50.2726971,British Columbia,49.9,08MG001,,,9304,,,,18.40592,run-of-river,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=44982725
+130,Seton,-121.9241239,50.6727415,British Columbia,48,08MEAX0,21,7728,10367,,,,185.24,reservoir,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=54526179
+131,Seven Mile,-117.5040983,49.0301612,British Columbia,805,08NEB00,287,102327,5828,89148,CRB,,1549.4736,impoundment,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=44984757
+132,Shuswap Falls,-118.8133272,50.2960082,British Columbia,6,08LC000,,,8986,,,,31.14848,run-of-river,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=44980818
+138,South Cranberry Creek 2,-118.1041359,50.771577,British Columbia,9,08NE002,262,97899,10750,95638,CRB,,6.84979,run-of-river?,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=44981471; https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=57354558
+139,South Slocan,-117.5197117,49.4554865,British Columbia,54,08NHA00,,,6884,90540,CRB,,305.82144,run-of-river?,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=71659275
+140,Spillimacheen,-116.4089432,50.9033621,British Columbia,4,08NA002,,,11115,96115,CRB,,8.49504,run-of-river,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=45048839
+141,Spray,-115.4023779,51.0745112,Alberta,112,05BE000,,,11476,,,,45.7,reservoir?,https://avw.alberta.ca/pdf/00080715-00-00.pdf
+142,St. Mary,-113.1087392,49.3665177,Alberta,2,05AE000,281,8108,6566,,,X,,,
+143,St. Mary River,-112.7165494,49.4526237,Alberta,7,05AF000,,,6922,,,X,,,
+144,Stokke Creek,-122.0342551,49.7110622,British Columbia,22,08MG0X2,,,7903,,,,8.3931,run-of-river,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=61649253
+145,Strathcona,-125.5855777,49.998082,British Columbia,64,08HD001,25,7959,8227,,,,98.68,reservoir,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=55477290
+149,Taylor Coulee,-112.8871494,49.3336487,Alberta,12.7,05AE000,285,101559,6568,,,,,run-of-river?,X
+150,Tennant Lake,-125.6214636,49.5674263,British Columbia,3.1,08HD001,,972381,7170,,,X,,,
+152,Thelwood,-125.5642487,49.5424381,British Columbia,8.2,08HD001,,972992,7171,,,X,,,
+153,Three Sisters,-115.3746398,50.9984958,Alberta,3,05BC000,260,7658,11124,,,,21.2,reservoir,https://avw.alberta.ca/pdf/00080715-00-00.pdf
+154,Tipella Creek,-122.1622222,49.7409178,British Columbia,18,08MG001,,,7549,,,,7.19247,run-of-river,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=62150055
+156,Tretheway Creek,-122.0796032,49.70396048,British Columbia,21.2,08MG0X2,,,7198,,,,11.4,run-of-river,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=65568197
+158,Upper Bear,-123.5720934,49.7953894,British Columbia,10,08GB0X1,,967380,7891,,,X,,,
+159,Upper Bonnington,-117.484182,49.4601133,British Columbia,66,08NHA00,,974194,6884,90540,CRB,,362.45504,reservoir,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=71658275
+160,Upper Clowhom,-123.4461156,49.8542767,British Columbia,11,08GB0X1,,100379,7893,,,,8.40049,run-of-river?,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=48854707
+161,Upper Mamquam,-123.0428492,49.71952909,British Columbia,25,08GABX1,,,7543,,,,26.99979,run-of-river,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=54698541
+162,Upper Stave River,-122.3502994,49.5660467,British Columbia,33,08MHBX1,,,7196,,,,43.80609,run-of-river,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=65752643
+166,Wahleach,-121.6806648,49.236626,British Columbia,65,08MG0X2,36,101750,6147,,,,14.19804,reservoir,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=44981170
+167,Walden North,-121.98331,50.6605121,British Columbia,16,08MEAX0,,,10015,,,,42.4752,run-of-river,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=55807626
+168,Walter Hardman,-118.06001,50.8139369,British Columbia,8,08NE002,,945309,10750,95638,CRB,,10.50553,run-of-river?,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=44980524
+169,Waneta,-117.6128674,49.0041477,British Columbia,493.2,08NEB00,289,102399,5475,88683,CRB,,223.98589,reservoir,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=44979578
+170,Waneta Expansion,-117.6159934,49.004675,British Columbia,335,08NEB00,289,102399,5475,88683,CRB,,626,reservoir,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=62574575
+171,Waterton Hydro,-113.6728886,49.32913432,Alberta,3,05AD000,284,101569,6562,,,X,,,
+175,Whatshan,-118.0717572,49.91037469,British Columbia,54,08NEA00,273,7974,8639,92855,CRB,,40.91778,reservoir,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=44981014
+176,Whistler,-122.9457523,50.1062082,British Columbia,7.6,,,,,,,X,,,
+180,Zeballos Lake,-126.7796544,50.0535206,British Columbia,23,08HE0X1,,99804,8569,,,,27.9885,reservoir,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=110523743
+182,Boulder Creek,-123.4052007,50.63552003,British Columbia,25.3,08MG001,,,10357,,,,11.3,run-of-river,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=67577691
+183,Box Canyon,-123.3935594,49.58502142,British Columbia,15,08GABX1,,,7540,,,,3.96,run-of-river,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=65575078
+186,Canoe Creek Hydro,-125.3955724,49.1769186,British Columbia,6,08HC0X1,,,6117,,,,1.99881,run-of-river,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=44979529
+187,Castle Creek,-120.191003,53.11044783,British Columbia,6,08KA002,,,17070,,,,4.53069,run-of-river,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=44983854
+190,Culliton Creek,-123.1598934,49.8771816,British Columbia,15,08GABX1,,,8247,,,,7.5,run-of-river,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=89791863
+191,Dasque,-128.918606,54.38092487,British Columbia,12,08EGBX1,,,20520,,X,,,,
+192,Doran Taylor,-125.2755331,49.2964269,British Columbia,6,08HB001,,977368,6468,,,,1.09982,reservoir,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=45046819
+194,Haa-ak-suuk Creek Hydro,-125.3836702,49.2479229,British Columbia,6,08HC0X1,,,6468,,,X,,,
+195,Hauer Creek,-119.4561833,52.9341667,British Columbia,2,08KA002,,,17076,,,,0.99942,run-of-river,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=64834564
+196,Jamie Creek,-123.05682,50.8282104,British Columbia,21,08MEAX0,,,10359,,,,5.6,run-of-river,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=56776307
+197,Jimmie Creek (Upper Toba Valley),-124.0257331,50.60523116,British Columbia,62,08GC0X0,,,10000,,,,15.65,run-of-river,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=85623169
+198,Lorenzetta Creek,-121.6224562,49.31702877,British Columbia,3,08MG0X2,,,6851,,,X,,,
+199,Marion 3 Creek,-125.3568773,49.23427538,British Columbia,5,08HC0X1,,978858,6117,,,,1.39109,run-of-river?,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=71743286
+200,McIntosh Creek,-120.375396,53.368676,British Columbia,1,08KA0X1,,,17772,,,X,,,
+201,McLymont Creek,-130.7974519,56.6871973,British Columbia,66,08CGC00,,,27544,,X,,,,
+203,Middle,-128.8880661,54.37865735,British Columbia,8,08EGBX1,,,20520,,X,,,,
+205,Sakwi Creek,-121.880117,49.3326167,British Columbia,6,08MG0X2,,,6848,,,,1.25,run-of-river,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=66889321
+208,Skookum Power (Mamquam Skookum),-122.9955731,49.7204719,British Columbia,25,08GABX1,,,7544,,,,9.9,run-of-river,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=60808889
+209,Soo River 2,-122.8959915,50.22316569,British Columbia,13,08MG001,,,8952,,,,16.51,run-of-river,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=62536437
+210,South Sutton Creek,-125.3092113,49.2876115,British Columbia,5,08HB001,,,6468,,,,2.00002,run-of-river,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=44981967
+211,Squamish Power Project,-123.255398,49.667741,British Columbia,1,08GABX1,,,7540,,,X,,,
+212,Tyson Creek,-123.685752,49.8370846,British Columbia,9,08GB0X1,,967326,7890,,,,1.30002,reservoir,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=62778877
+213,Upper Lillooet River,-123.4463117,50.65598723,British Columbia,81.4,08MG001,,,10356,,,,53,run-of-river,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=65280313
+214,Volcano Creek,-130.5976985,56.7289115,British Columbia,18,08CG002,,,27195,,X,,,,
+9215,Alouette Lake,-122.3134057,49.37107284,British Columbia,9,08MHBX1,35,8131,6492,,,,28.3168,reservoir,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=45046740
+9216,Clayton Falls,-126.8139119,52.3700948,British Columbia,2,08FBOX1,,,14905,,,X,,,
+9217,Falls River,-129.7344798,53.98344128,British Columbia,7,08EGBX1,,85332,19810,,X,,,,
+9218,Lake Buntzen 1,-122.8686413,49.37520695,British Columbia,60,08GABX1,,976058,6841,,,,67.69826221,reservoir,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=44981508
+9219,Lake Buntzen 2,-122.8735178,49.3705691,British Columbia,17.8,08GABX1,,976058,6841,,,X,,,
+9220,Lois Lake,-124.3169893,49.7699018,British Columbia,37,08GB0X1,28,8009,7885,,,X,,,
+9221,Powell Lake,-124.5577039,49.8723478,British Columbia,38,08GC0X0,27,681,8235,,,,102.78998,reservoir,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=45046212
+9222,Salmon Inlet (Sechelt Creek),-123.548089,49.6774584,British Columbia,17,08GB0X1,,,7187,,,,6.15607,run-of-river,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=65444013
+9223,Site C,-120.913109,56.19035169,British Columbia,1100,07FA000,,,25864,,X,,,,
+9224,Stave Falls,-122.356131,49.22881408,British Columbia,91,08MHBX1,37,8144,6493,,,,283.168,reservoir,https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=PublicDocuments&PosseObjectId=44982687

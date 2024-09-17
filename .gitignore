@@ -167,4 +167,4 @@ hydropower-scaling/input/PNW_28_max_min_ador_parameters_mode.csv
 hydropower-scaling/input/WECC_ADS_2032_CAN.csv
 CAN_hydropower_facilities_SF.csv
 CAN_hydropower_monthly_*
-mosartwmpy-flow-*
+mosartwmpy_flow_*

@@ -1,0 +1,35 @@
+# Place your use-case specific settings overrides here.
+
+simulation:
+    # name this simulation
+    name: noWM
+    # path to a directory for writing output files; will be created if it doesn't exist
+    output_path: /vast/projects/godeeep/VIC/mosart/canada/
+    # date to begin the simulation
+    start_date: 1979-01-01
+    # date to end the simulation
+    end_date: 2020-01-01
+
+grid:
+  subdomain: ~
+  unmask_output: true
+  path: ../MOSART_CA_8th_20240104_masked.nc
+
+runoff:
+  read_from_file: true
+  path: ../MOSART_CA_8th_runoff_1979_2019_masked.nc
+
+water_management:
+  enabled: false
+  demand:
+    read_from_file: false
+    path: 
+  reservoirs:
+    parameters:
+      path: ../MOSART_CA_8th_reservoir.nc
+    dependencies:
+      path: ../MOSART_CA_8th_reservoir_demand_dependency.parquet
+    streamflow:
+      path: ../MOSART_CA_8th_reservoir_flow_monthly_mean.parquet
+    demand:
+      path: ../MOSART_CA_8th_reservoir_demand_monthly_mean.parquet
