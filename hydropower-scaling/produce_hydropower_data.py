@@ -9,7 +9,7 @@ facility_profile = [
     'Mica',
     'Revelstoke',
 ]
-
+os.chdir('hydropower-scaling')
 # read hydropower facility list with scaling factors
 path_facility = 'CAN_hydropower_facilities_SF.csv'
 df_facility = pd.read_csv(path_facility, index_col = 0)
@@ -107,12 +107,22 @@ for idx, df in df_facility.iterrows():
 
 # export
 df_mosartwmpy_gen_cap_mprf = pd.concat(arr_gen_cap_mprf, axis = 1)
+df_mosartwmpy_gen_cap_mprf.index = df_mosartwmpy_gen_cap_mprf.index.strftime('%Y-%m')
+df_mosartwmpy_gen_cap_mprf.index.name = 'Year-Month'
 df_mosartwmpy_gen_cap_mprf.to_csv('CAN_hydropower_monthly_generation_MWh.csv')
 
 df_mosartwmpy_p_avg_cap_mprf = pd.concat(arr_p_avg, axis = 1)
 df_mosartwmpy_p_max_cap_mprf = pd.concat(arr_p_max, axis = 1)
 df_mosartwmpy_p_min_cap_mprf = pd.concat(arr_p_min, axis = 1)
 df_mosartwmpy_p_ador_cap_mprf = pd.concat(arr_p_ador, axis = 1)
+#df_mosartwmpy_p_avg_cap_mprf.index = df_mosartwmpy_p_avg_cap_mprf.index.strftime('%Y-%m')
+df_mosartwmpy_p_max_cap_mprf.index = df_mosartwmpy_p_max_cap_mprf.index.strftime('%Y-%m')
+df_mosartwmpy_p_min_cap_mprf.index = df_mosartwmpy_p_min_cap_mprf.index.strftime('%Y-%m')
+df_mosartwmpy_p_ador_cap_mprf.index = df_mosartwmpy_p_ador_cap_mprf.index.strftime('%Y-%m')
+#df_mosartwmpy_p_avg_cap_mprf.index.name = 'Year-Month'
+df_mosartwmpy_p_max_cap_mprf.index.name = 'Year-Month'
+df_mosartwmpy_p_min_cap_mprf.index.name = 'Year-Month'
+df_mosartwmpy_p_ador_cap_mprf.index.name = 'Year-Month'
 #df_mosartwmpy_p_avg_cap_mprf.to_csv('CAN_hydropower_monthly_p_avg_MW.csv')
 df_mosartwmpy_p_max_cap_mprf.to_csv('CAN_hydropower_monthly_p_max_MW.csv')
 df_mosartwmpy_p_min_cap_mprf.to_csv('CAN_hydropower_monthly_p_min_MW.csv')
