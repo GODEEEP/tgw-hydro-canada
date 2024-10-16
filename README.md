@@ -59,7 +59,7 @@ A collection of scripts to produce monthly hydropower generation estimates for 1
 
 ## Documentation
 For more details about the hydrology-hydropower modeling approach, please refer to the following publication:
-  - Son, Y., Bracken, C., Daniel, B., and Voisin, N. (2024). A monthly hydropower generation dataset for Western Canada to support Western-US interconnect grid system studies [Manuscript submitted for publication].
+  - Son, Y., Bracken, C., Daniel, B., and Voisin, N. (2025). Monthly hydropower generation data for Western Canada to support Western-US interconnect power system studies [Manuscript submitted for publication].
 
 
 ## Funding Acknowledgements
