@@ -2,7 +2,7 @@ import os
 import numpy as np
 import pandas as pd
 import xarray as xr
-
+os.chdir('hydropower-scaling')
 # set reference year
 year_ref = 2008
 
@@ -39,7 +39,7 @@ df_CRB_inflow_year = df_CRB_inflow.loc[year_dates]
 df_CRB_outflow_year = df_CRB_outflow.loc[year_dates]
 
 # assign available streamflow [m^3/s]
-df_facility['FlowRef'], df_facility['FlowRef_Cap'] = np.nan, np.nan
+df_facility['FlowRef'], df_facility['FlowRef_IntakeCap'] = np.nan, np.nan
 for idx, df in df_facility.iterrows():
     if df['Basin_Note'] == 'X': continue    # skip facilities outside of TGW
     if df['WECC_ADS_2032'] == 'X': continue # skip facilities with no reference generation
@@ -57,11 +57,12 @@ for idx, df in df_facility.iterrows():
     # constraint due to intake flow rate
     if np.isfinite(df['Intake_Flow_Rate']): df_flowref.loc[df_flowref > df['Intake_Flow_Rate']] = df['Intake_Flow_Rate']
     else: df_flowref.loc[:] = np.nan
-    df_facility.loc[idx, 'FlowRef_Cap'] = df_flowref.sum(skipna = False) # annual sum
+    df_facility.loc[idx, 'FlowRef_IntakeCap'] = df_flowref.sum(skipna = False) # annual sum
 
 # calculate scaling factors
-df_facility['Flow2Gen'] = df_WECC.loc[df_facility.index, 'SUM_GWh'] * 1000 / df_facility['FlowRef'] # scaling factor [MWh / CMS]
-df_facility['Flow2Gen'] = df_facility['Flow2Gen'].replace([np.inf, -np.inf], np.nan)
-df_facility['Flow2Gen_Cap'] = df_WECC.loc[df_facility.index, 'SUM_GWh'] * 1000 / df_facility['FlowRef_Cap'] # scaling factor [MWh / CMS]
-df_facility['Flow2Gen_Cap'] = df_facility['Flow2Gen_Cap'].replace([np.inf, -np.inf], np.nan)
-df_facility.to_csv('CAN_hydropower_facilities_SF.csv')
+df_facility['Scaling'] = df_WECC.loc[df_facility.index, 'SUM_GWh'] * 1000 / df_facility['FlowRef'] # scaling factor [MWh / CMS]
+df_facility['Scaling'] = df_facility['Scaling'].replace([np.inf, -np.inf], np.nan)
+df_facility['Scaling_IntakeCap'] = df_WECC.loc[df_facility.index, 'SUM_GWh'] * 1000 / df_facility['FlowRef_IntakeCap'] # scaling factor [MWh / CMS]
+df_facility['Scaling_IntakeCap'] = df_facility['Scaling_IntakeCap'].replace([np.inf, -np.inf], np.nan)
+df_facility = df_facility.drop(columns = ['FlowRef', 'FlowRef_IntakeCap'])
+df_facility.to_csv('CAN_hydropower_facilities&scaling.csv')

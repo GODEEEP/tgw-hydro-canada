@@ -12,18 +12,18 @@ Create a list of VIC grids
 path_domain = '/vast/projects/godeeep/VIC/params/namerica_domain.nc' # https://zenodo.org/records/5038653
 path_shp, path_dbf = os.path.join('input', 'NHN_Subset_Rev2.shp'), os.path.join('input', 'NHN_Subset_Rev2.dbf')
 path_csv_conus = os.path.join('input', 'grid_ids_conus.csv')
-path_out = os.path.join('input', 'grid_ids_ca.csv')
+path_out = os.path.join('input', 'grid_ids_ca_check.csv')
 
 ds_domain = xr.open_dataset(path_domain)
 lats, lons = np.meshgrid(ds_domain['lat'], ds_domain['lon'])
 lonlats = np.stack([lons.flatten(), lats.flatten()], axis = 1)
 
 ### if a boundary shapefile can be provided
-#path_shp_bounds = os.path.join('input', 'T2_bounds.shp')
-#if path_shp_bounds is not None:
-#    with open(path_shp_bounds, 'rb') as f:
-#        bounds = shapely.geometry.shape(shapefile.Reader(shp = f).shapes()[0])
-#        lonlats = lonlats[shapely.contains_xy(bounds, lonlats)]
+path_shp_bounds = os.path.join('input', 'T2_bounds.shp')
+if path_shp_bounds is not None:
+    with open(path_shp_bounds, 'rb') as f:
+        bounds = shapely.geometry.shape(shapefile.Reader(shp = f).shapes()[0])
+        lonlats = lonlats[shapely.contains_xy(bounds, lonlats)]
 
 shp, dbf = open(path_shp, 'rb'), open(path_dbf, 'rb')
 shpdbf = shapefile.Reader(shp = shp, dbf = dbf)

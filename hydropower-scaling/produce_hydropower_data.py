@@ -11,7 +11,7 @@ facility_profile = [
 ]
 os.chdir('hydropower-scaling')
 # read hydropower facility list with scaling factors
-path_facility = 'CAN_hydropower_facilities_SF.csv'
+path_facility = 'CAN_hydropower_facilities&scaling.csv'
 df_facility = pd.read_csv(path_facility, index_col = 0)
 
 # read WECC ADS 2032 reference generation
@@ -58,7 +58,7 @@ for idx, df in df_facility.iterrows():
         dsig = int(ds_CRB['DSIG'].sel(gindex = gindex))
         df_flowref = df_CRB_outflow.loc[date_min:date_max, gindex] * (dsig > -1) + df_CRB_inflow.loc[date_min:date_max, gindex] * (dsig == -1) # outlet cells do not have outflows while headwater cells do not have inflows
     
-    df_gen = df_flowref.resample('MS').sum() * df['Flow2Gen'] # generation [MWh]
+    df_gen = df_flowref.resample('MS').sum() * df['Scaling'] # generation [MWh]
     df_gen.name = df['Facility']
 
     # calculate maximum generation by nameplate capacity
@@ -70,7 +70,7 @@ for idx, df in df_facility.iterrows():
     df_flowref_cap = df_flowref.copy()
     if np.isfinite(df['Intake_Flow_Rate']):
         df_flowref_cap.loc[df_flowref_cap > df['Intake_Flow_Rate']] = df['Intake_Flow_Rate']
-        df_gen_cap = df_flowref_cap.resample('MS').sum() * df['Flow2Gen_Cap'] # Generation [MWh]
+        df_gen_cap = df_flowref_cap.resample('MS').sum() * df['Scaling_IntakeCap'] # Generation [MWh]
     #else: df_gen_cap = df_gen * np.nan
     else: df_gen_cap = df_gen.copy()
     df_gen_cap.name = df['Facility']
@@ -87,8 +87,8 @@ for idx, df in df_facility.iterrows():
     arr_gen_cap_mprf.append(df_gen_cap_mprf)
 
     # derive p_avg, p_max, p_min, p_ador
-    if np.isfinite(df['Intake_Flow_Rate']): df_p_avg = df_flowref_cap.resample('MS').mean() * df['Flow2Gen_Cap'] / 24 # power [MW]
-    else: df_p_avg = df_flowref_cap.resample('MS').mean() * df['Flow2Gen'] / 24 # power [MW]
+    if np.isfinite(df['Intake_Flow_Rate']): df_p_avg = df_flowref_cap.resample('MS').mean() * df['Scaling_IntakeCap'] / 24 # power [MW]
+    else: df_p_avg = df_flowref_cap.resample('MS').mean() * df['Scaling'] / 24 # power [MW]
     df_p_avg = df_p_avg.where(df_p_avg < df_WECC.loc[idx, 'MaxCap'], df_WECC.loc[idx, 'MaxCap'])
     df_p_avg.name = df['Facility']
 
