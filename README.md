@@ -22,7 +22,7 @@ For information on the computational resources and software dependencies of the 
      extract VIC domain parameters on VIC grids from [VICGlobal](https://zenodo.org/record/5038653/) dataset <br>
      
      * [vic/proc_wrf_to_vicgrid_00625_parallel.py](./vic/proc_wrf_to_vicgrid_00625_parallel.py): <br>
-     convert [Thermodynamic Global Warming (TGW)](https://tgw-data.msdlive.org/) historical climate run into weekely meteorological forcing data on VIC grids at 1/16th degree resolution <br>
+     convert [TGW](https://tgw-data.msdlive.org/) historical climate run into weekely meteorological forcing data on VIC grids at 1/16th degree resolution <br>
      
      * [vic/conus-forcings-by-huc2-from-weekly.py](./vic/conus-forcings-by-huc2-from-weekly.py): <br>
      generate VIC meteorological forcing inputs for each grid cell at 6-hourly intervals from weekly outputs <br>
@@ -72,7 +72,7 @@ For information on the computational resources and software dependencies of the 
    2. Download [VICGlobal](https://zenodo.org/record/5038653/) domain parameters and unpack the files, `namerica_domain.nc` and `nameria_params.nc`.
    3. Run `vic/grid_ids_ca.py` to create a list of VIC grids `vic/output/grid_ids_ca_check.csv` for Western Canada, based on watershed delineations `vic/input/NHN_Subset_Rev2.shp` and `vic/input/T2_bounds.shp`.
    4. Run `vic/param-subset-by-huc2.sl` on a HPC system to extract **VICGlobal** domain parameters on VIC grids.
-   5. Download [Thermodynamic Global Warming (TGW)](https://tgw-data.msdlive.org/) meteorological forcing data. (Warning: the data is very large and will require a HPC system to process)
+   5. Download [TGW](https://tgw-data.msdlive.org/) meteorological forcing data. (Warning: the data is very large and will require a HPC system to process)
    6. Run `vic/proc_wrf_to_vicgrid_00625_parallel.sl` to convert **TGW** historical climate run into weekely meteorological forcing data on VIC grids at 1/16th degree resolution.
    7. Run `vic/conus-forcings-by-huc2-from-weekly.sl` to generate VIC meteorological forcing for each grid cell at 6-hourly intervals from weekly outputs.
    8. Download [GRFR ReachHydro](https://www.reachhydro.org/home/records/grfr) runoff data for VIC model calibration.
