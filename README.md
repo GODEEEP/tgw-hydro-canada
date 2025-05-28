@@ -104,5 +104,5 @@ For more details about the hydrology-hydropower modeling approach, please refer 
 ---
 
 ## Funding Acknowledgements
-This work was supported by the Grid Operations, Decarbonization, Environmental and Energy Equity Platform (GODEEEP) Investment, under the Laboratory Directed Research and Development (LDRD) Program at the Pacific Northwest National Laboratory (PNNL). <br>
+This work was supported by under the Laboratory Directed Research and Development (LDRD) Program (Project # 79583) at the Pacific Northwest National Laboratory (PNNL). <br>
 The PNNL is a multi-program national laboratory operated by Battelle Memorial Institute for the U.S. Department of Energy (DOE) under Contract No. DE-AC05-76RL01830.
