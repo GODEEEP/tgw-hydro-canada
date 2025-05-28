@@ -99,7 +99,7 @@ For information on the computational resources and software dependencies of the 
 
 ## Documentation
 For more details about the hydrology-hydropower modeling approach, please refer to the following publication:
-  - Son, Y., Bracken, C., Daniel, B., and Voisin, N. (2025). Monthly hydropower generation data for Western Canada to support Western-US interconnect power system studies [in revision].
+  - Son, Y., Bracken, C., Broman, D. et al. Monthly hydropower generation data for Western Canada to support Western-US interconnect power system studies. *Sci Data* **12**, 874 (2025). [https://doi.org/10.1038/s41597-025-05098-2](https://doi.org/10.1038/s41597-025-05098-2)
 
 ---
 
